@@ -145,3 +145,8 @@ A responsive web application that allows users to search, filter, and view detai
   npm run dev
   or
   npm start
+
+
+
+
+- It took me 5 days to complete this project, by giving 2 hours everyday to this project.
