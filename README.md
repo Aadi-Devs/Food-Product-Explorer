@@ -2,120 +2,146 @@
 
 A responsive web application that allows users to search, filter, and view detailed information about food products using the OpenFoodFacts API. Built using ReactJS and TailwindCSS.
 
+
+
 📌 Features
 
-🔍 Homepage
 
-Displays a list of food products fetched from the OpenFoodFacts API
+1) 🔍 Homepage
 
-Shows key product information:
+- Displays a list of food products fetched from the OpenFoodFacts API
 
-✅ Product Name
+- Shows key product information:
 
-🖼️ Image
+  ✅ Product Name
 
-🗂️ Category
+  🖼️ Image
 
-🧾 Ingredients (if available)
+  🗂️ Category
 
-🧪 Nutrition Grade (A to E)
+  🧾 Ingredients (if available)
 
-Includes pagination using infinite scroll or load more
+  🧪 Nutrition Grade (A to E)
 
-🔎 Search Functionality
+- Includes pagination using infinite scroll or load more
 
-Users can search for food products by name
 
-Filters product list based on the search query
 
-Dynamic and real-time filtering
+2) 🔎 Search Functionality
 
-📦 Barcode Search
+- Users can search for food products by name
 
-Users can search for a product by entering its barcode
+- Filters product list based on the search query
 
-Displays detailed product info based on valid barcode
+- Dynamic and real-time filtering
 
-Uses API:https://world.openfoodfacts.org/api/v0/product/{barcode}.json
 
-📂 Category Filter
+3) 📦 Barcode Search
 
-Dropdown or sidebar allows users to filter products by category (e.g., dairy, beverages, snacks)
+- Users can search for a product by entering its barcode
 
-Categories fetched dynamically using:https://world.openfoodfacts.org/categories.jsonand products by:https://world.openfoodfacts.org/category/{category}.json
+- Displays detailed product info based on valid barcode
 
-🔃 Sort Functionality
+- Uses API:https://world.openfoodfacts.org/api/v0/product/{barcode}.json
 
-Allows sorting of products by:
 
-Name: A-Z / Z-A
+4) 📂 Category Filter
 
-Nutrition Grade: Ascending / Descending
+- Dropdown or sidebar allows users to filter products by category (e.g., dairy, beverages, snacks)
 
-📄 Product Detail Page
+- Categories fetched dynamically using:https://world.openfoodfacts.org/categories.jsonand products by:https://world.openfoodfacts.org/category/{category}.json
 
-On clicking a product, the user is taken to a detailed page with:
 
-Product image
+5) 🔃 Sort Functionality
 
-Full list of ingredients
+- Allows sorting of products by:
 
-Nutritional values:
+  - Name: A-Z / Z-A
 
-Energy, Fat, Carbs, Proteins, Sugar, etc.
+  - Nutrition Grade: Ascending / Descending
 
-Labels: Vegan, Gluten-Free, Palm Oil Free (if available)
 
-📱 Responsive Design
+6) 📄 Product Detail Page
 
-Fully mobile and desktop friendly using TailwindCSS
+- On clicking a product, the user is taken to a detailed page with:
 
-Ensures seamless browsing experience across devices
+- Product image
 
-🧰 Tech Stack
+- Full list of ingredients
 
-Technology
+- Nutritional values:
 
-Description
+- Energy, Fat, Carbs, Proteins, Sugar, etc.
 
-ReactJS
+- Labels: Vegan, Gluten-Free, Palm Oil Free (if available)
 
-Frontend library for UI building
+7) 📱 Responsive Design
 
-TailwindCSS
+- Fully mobile and desktop friendly using TailwindCSS
 
-Utility-first CSS framework
+- Ensures seamless browsing experience across devices
 
-OpenFoodFacts
+8) 🧰 Tech Stack
 
-Free food product database/API
+- Technology
 
-React Router
+    ReactJS
 
-For page navigation
+    Frontend library for UI building
 
-Axios/Fetch
+    TailwindCSS
 
-For making HTTP requests
+    Utility-first CSS framework
 
-React Context (optional)
+    OpenFoodFacts
 
-For global state like filters
+    Free food product database/API
 
-🔗 API References
+    React Router
 
-Feature
+- For page navigation
 
-Endpoint Example
+  Axios/Fetch
 
-Products by category
+  For making HTTP requests
 
-https://world.openfoodfacts.org/category/beverages.json
+  React Context (optional)
 
-Search by name
+  For global state like filters
 
-https://world.openfoodfacts.org/cgi/search.pl?search_terms=milk&json=true
 
-Product by barcode
+9) 🔗 API References
 
-https://world.openfoodfacts.org/api/v0/product/737628064502.json
+  Feature
+
+  Endpoint Example
+
+    Products by category
+
+    https://world.openfoodfacts.org/category/beverages.json
+
+    Search by name
+
+    https://world.openfoodfacts.org/cgi/search.pl?search_terms=milk&json=true
+
+    Product by barcode
+
+    https://world.openfoodfacts.org/api/v0/product/737628064502.json
+
+
+🚀 Getting Started
+
+1. Clone the Repository
+     git clone https://github.com/your-username/food-product-explorer.git
+     cd food-product-explorer
+
+2. Install Dependencies
+    npm install
+    or
+    yarn
+
+3. Start Development Server
+
+  npm run dev
+  or
+  npm start
